@@ -1,13 +1,13 @@
 :root{
   color-scheme:light dark;
-  --bg:#0f1115;
-  --surface:#171a20;
-  --surface2:#20242c;
+  --bg:#18171C;;
+  --surface: #211F26;
+  --surface2: #2A2730;
+  --border: #393540;
   --text:#f3f5f7;
   --muted:#aeb6c2;
   --accent:#b8a7ff;
   --accent2:#7f67d9;
-  --border:#2c323c;
   --max:1120px;
 }
 @media (prefers-color-scheme:light){
@@ -95,4 +95,24 @@ footer{
   nav>a:not(.button){display:none}
   .hero{padding-top:28px}
   .grid{grid-template-columns:1fr}
+}
+.screenshots {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 36px;
+}
+
+.screenshots img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+@media (max-width: 700px) {
+  .screenshots {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }
