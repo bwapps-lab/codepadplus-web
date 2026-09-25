@@ -1,9 +1,9 @@
 :root{
   color-scheme:light dark;
-  --bg:#18171C;;
-  --surface: #211F26;
-  --surface2: #2A2730;
-  --border: #393540;
+  --bg:#18171C;
+  --surface:#211F26;
+  --surface2:#2A2730;
+  --border:#393540;
   --text:#f3f5f7;
   --muted:#aeb6c2;
   --accent:#b8a7ff;
